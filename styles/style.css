@@ -1,0 +1,237 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+/* nav related style */
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.nav-title{
+    color: var(--Dark-01, #181818);
+    
+    font-size: 55px;
+    font-style: normal;
+    font-weight:800px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+   
+
+
+
+}
+
+.nav-span{
+    color: #FD6E0A; 
+}
+
+nav >ul{
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+   
+}
+nav >ul>li{
+    padding: 20px;
+}
+ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size:15px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.btn-primary{
+   background-color: #FD6E0A;
+   color: var(--White-Color, #FFF);
+   font-family: Open Sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   border-radius: 8px;
+   border: none;
+   padding:10px 12px;
+
+}
+
+
+/* banner related style */
+
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 100px;
+}
+
+.banner-grating{
+    font-size: 25px;
+    color: var(--Dark-02, #474747);
+    line-height: normal;
+    /* font-family: Open Sans; */
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+
+}
+
+.banner-title{
+    color: var(--Dark-01, #181818);
+
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0px;
+
+}
+
+.banner-descraption{
+    color: var(--Dark-03, #757575)
+}
+
+
+/* main related style */
+
+/* about related style */
+ .about{
+    padding: 30px 100px 20px 100px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px 100px;
+ }
+
+
+ .aobut-title{
+    padding-top: 0px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+ }
+
+ .about-datils{
+
+     display: flex;
+     align-items: center;
+     text-align:center;
+    padding: 10px;
+ }
+
+
+ /* what do i do related style */
+/* 
+ .what-do-i-do{
+    padding: ;
+ } */
+
+ .what-do-title{
+    text-align: center;
+ }
+
+.what-do-desc{
+    padding:30px 200px;
+}
+
+.what-do-card{
+    display:flex;
+    padding: 10px 100px;
+    text-align: center;
+    
+}
+
+.what-card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 1px 10px;
+    padding: 10px;
+}
+
+
+/* .resume related style */
+
+
+.resume-container{
+    margin-top: 100px;
+}
+.resume-section{
+    display: flex;
+    text-align:left;
+    padding: 0px 90px;
+    
+}
+
+
+
+.res-h{
+    text-align:center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.resume-column{
+    margin: 0px 30px;
+}
+
+.btn-div{
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+footer{
+    background-color: #e1b89b;
+}
+.footer{
+    display:flex;
+    padding: 20px;
+   
+}
+
+.footer-column{
+    padding: 30px;
+    text-align: left;
+}
+
+.footer-ul{
+    display: flex;
+}
+
+
+form{
+    display: block;
+}
+
+input[type="text"], input[type="email"],textarea{
+    border: none;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100%;
+}
+
+
+.copy{
+    text-align: center;
+   padding: 0px 0px 20px 0px;
+}
